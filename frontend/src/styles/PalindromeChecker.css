@@ -1,0 +1,17 @@
+.palindrome-checker {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+  }
+  
+  .error-message {
+    padding: 1rem;
+    background-color: var(--error-bg);
+    color: var(--error-color);
+    border-radius: 4px;
+    border-left: 4px solid var(--error-color);
+  }

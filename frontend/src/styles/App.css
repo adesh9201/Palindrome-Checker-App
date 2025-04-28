@@ -1,0 +1,21 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .app-main {
+    flex: 1;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.25rem;
+  }
+  
+  .app-footer {
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #f0f0f0;
+    color: var(--secondary-text);
+    font-size: 0.875rem;
+  }
